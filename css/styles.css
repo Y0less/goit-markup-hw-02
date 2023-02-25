@@ -43,7 +43,7 @@ body {
 
 /* Header Section */
 .header {
-  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Logo Style */
@@ -97,7 +97,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
   cursor: pointer;
@@ -124,7 +124,7 @@ body {
   color: var(--dark-color);
 }
 .sevices-list {
-  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* section 3 */
