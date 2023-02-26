@@ -69,7 +69,7 @@ body {
 .site-nav .link {
   color: var(--dark-color);
   font-weight: 500;
-  /* line-height: 1.5; */
+  line-height: 1.5;
 }
 .contacts .link {
   color: var(--dark-color);
