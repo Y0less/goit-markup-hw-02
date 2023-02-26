@@ -69,16 +69,18 @@ body {
 .site-nav .link {
   color: var(--dark-color);
   font-weight: 500;
+  /* line-height: 1.5; */
 }
 .contacts .link {
   color: var(--dark-color);
   font-style: normal;
+  line-height: 1.5;
 }
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--pressed-state-color);
 }
 
@@ -90,16 +92,19 @@ body {
   line-height: 1.07;
   text-align: center;
   color: var(--white-color);
+}
+.hero-section {
   background-color: var(--dark-color);
 }
 .button {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
+  border-color: var(--primary-brand-color);
   cursor: pointer;
 }
 .button:hover,
@@ -108,6 +113,18 @@ body {
 }
 
 /* Section 1 */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .sub-title {
   font-weight: 500;
   font-size: 20px;
@@ -148,7 +165,7 @@ body {
 
 /* Portfolio */
 .portfolio-list .button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -156,9 +173,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-brand-color);
   background-color: var(--light-color);
+  border-color: var(--accent-color);
 }
 .portfolio-list .button:hover,
 .portfolio-list .button:focus {
   color: var(--white-color);
   background-color: var(--pressed-state-color);
+  border-color: var(--pressed-state-color);
 }
