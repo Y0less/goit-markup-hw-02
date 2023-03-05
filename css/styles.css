@@ -69,12 +69,10 @@ body {
 .site-nav .link {
   color: var(--dark-color);
   font-weight: 500;
-  line-height: 1.5;
 }
 .contacts .link {
   color: var(--dark-color);
   font-style: normal;
-  line-height: 1.5;
 }
 .link {
   text-decoration: none;
